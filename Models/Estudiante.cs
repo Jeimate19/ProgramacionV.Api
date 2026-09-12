@@ -13,4 +13,7 @@ public class Estudiante
     public int ProgramaAcademicoId { get; set; }
 
     public ProgramaAcademico? ProgramaAcademico { get; set; }
+
+    // Validación del formato del teléfono del estudiante
+    public string Telefono { get; set; } = string.Empty;
 }

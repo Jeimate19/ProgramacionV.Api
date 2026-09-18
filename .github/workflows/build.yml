@@ -20,7 +20,7 @@ jobs:
         dotnet-version: '10.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore ProgramacionV.csproj
+      run: dotnet restore ProgramacionV.Api/ProgramacionV.Api.csproj
 
     - name: Build
-      run: dotnet build ProgramacionV.csproj --configuration Release --no-restore
+      run: dotnet build ProgramacionV.Api/ProgramacionV.Api.csproj --configuration Release --no-restore

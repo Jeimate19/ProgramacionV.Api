@@ -21,8 +21,6 @@ jobs:
 
     - name: Restore dependencies
       run: dotnet restore ProgramacionV.Api.csproj
-      working-directory: ProgramacionV.Api
 
     - name: Build
       run: dotnet build ProgramacionV.Api.csproj --configuration Release --no-restore
-      working-directory: ProgramacionV.Api
